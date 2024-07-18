@@ -1,6 +1,18 @@
 # City-Classification-MLP
 A MLP Model built for classifying cities
 
+## MLP Model
+`model\` contains the MLP Model and relevant helper function that were used to develop the model. This model classfies the input response into a city from a list of available options [Dubai, Rio de Janeiro, New York City, Paris].
+And it is expected that this model runs with an 80% accuracy as it gave an 87.79% of accuracy in test dataset.
+
+### Dependencies
+```
+numpy
+re
+pandas
+```
+
+
 ## Sample Dataset
 *Disclaimer: All response in `data\` are obtained through survey questions.*
 
@@ -18,15 +30,3 @@ A MLP Model built for classifying cities
 - Q8: How many different languages might you overhear during a stroll through the city?
 - Q9: How many different fashion styles might you spot within a 10 minute walk in the city?
 - Q10: What quote comes to mind when you think of this city?
-
-
-## MLP Model
-`model\` contains the MLP Model and relevant helper function that were used to develop the model. This model classfies the input response into a city from a list of available options [Dubai, Rio de Janeiro, New York City, Paris].
-And it is expected that this model runs with an 80% accuracy as it gave an 87.79% of accuracy in test dataset.
-
-### Dependencies
-```
-numpy
-re
-pandas
-```
